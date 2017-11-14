@@ -1,0 +1,72 @@
+{
+  "slack": {
+      "token": "YOUR-SLACK-TOKEN",
+      "channel": "general",
+      "username": "search_bot",
+      "icon_emoji": "icon_emoji"
+   },
+  "database": "rooms.db",
+  "filters": {
+      "maximum_price": 430,
+      "minimum_price": 250,
+      "maximum_rooms": 4,
+      "minimum_rooms": 2,
+      "minimum_bathrooms": 1,
+      "minimum_photos": 2,
+      "neighborhoods_inside_boundaries": [
+          [41.346946, 2.128554, 41.426431, 2.23484]
+      ],
+      "neighborhoods_outside_boundaries": [
+        [41.375244, 2.164359, 41.38388, 2.175851],
+        [41.3742035517, 2.1722722113, 41.3782602916, 2.177820847]
+      ],
+      "black_list_words": ["solo estudiante", "solo para estudiante", "gastos no incluido", "más gastos", "busco a una chica", "me voy de viaje",
+                                 "uniplaces", "no incluye gastos", "este propietario tiene una política especial", "solo 1 mes", "solo un mes",
+                                 "el texto de este anuncio ha sido traducido con google", "spotahome", "+ facturas",
+                                 "para chica", "tengo mascota", "aceptamos animales", "+ expenses", "only students",
+                                 "amigo de los animales", "los gastos son", "gastos aparte", "+ gastos",
+                                 "es para el mes", "por 2 meses", "por el mes de", "para los meses de",
+                                 "facturas no incluidas", "+gastos", "solo para el mes", "super oferta", "precio especial",
+                                 "solo verano", "solo julio", "solo agosto", "solo septiembre", "tengo un perro", "tengo un perrito", "for a girl"]
+  },
+  "badi":{
+    "city": "Barcelona",
+    "page": 1,
+    "offset": 0,
+    "sort_by": "published_at desc"
+  },
+  "fotocasa": {
+    "transactionTypeId": 5,
+    "propertyTypeId": 2,
+    "isNewConstruction": false,
+    "combinedLocationIds": "724,9,8,232,376,8019,0,0,0",
+    "latitude": 41.3854,
+    "longitude": 2.1775,
+    "pageNumber": 1,
+    "sortType": "publicationDate",
+    "sortOrderDesc": true,
+    "culture": "es-ES",
+    "platformId": 1,
+    "hrefLangCultures": "ca-ES;es-ES;de-DE;en-GB"
+  },
+  "idealista": {
+    "order": "publicationDate",
+    "propertyType": "bedrooms",
+    "smokingPolicy": "disallowed",
+    "locale": "es",
+    "maxItems": 30,
+    "locationName": "Barcelona, Barcelona",
+    "petsPolicy": "disallowed",
+    "numPage": 1,
+    "hasMultimedia": true,
+    "operation": "rent",
+    "locationId": "0-EU-ES-08-13-001-019",
+    "newGender": "male",
+    "distance": 0,
+    "sort": "desc",
+    "height": 450,
+    "width": 600,
+    "gallery": true,
+    "quality": "high"
+  }
+}
